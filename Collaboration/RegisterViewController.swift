@@ -16,9 +16,9 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     struct profile{
-        static var username = ""
-        static var email = ""
-        static var password = ""
+        static var username = "1"
+        static var email = "2"
+        static var password = "3"
         
     }
 
@@ -33,12 +33,18 @@ class RegisterViewController: UIViewController {
     
     
     @IBAction func saveInputs(_ sender: Any) {
-        username.text = profile.username
-        email.text = profile.email
-        password.text = profile.password
+//        self.username.text = RegisterViewController.profile.username
+//        self.email.text = RegisterViewController.profile.email
+//        self.password.text = RegisterViewController.profile.password
         
-        let register = Profile(nibName: "Profile", bundle: nil)
-        present(register, animated: true, completion: nil)
+        RegisterViewController.profile.username = self.username.text!
+        RegisterViewController.profile.email = self.email.text!
+        RegisterViewController.profile.password = self.password.text!
+        
+        print("aaaaaa\(profile.username)")
+        
+        let register = Profile()
+        self.navigationController?.pushViewController(register, animated: true)
     }
 
     /*
