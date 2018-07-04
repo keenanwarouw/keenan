@@ -18,6 +18,8 @@
 		08CC973820ECC0AF00E424A0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC973620ECC0AF00E424A0 /* Profile.swift */; };
 		08CC973920ECC0AF00E424A0 /* Profile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CC973720ECC0AF00E424A0 /* Profile.xib */; };
 		08CC973B20ECC18F00E424A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC973A20ECC18F00E424A0 /* File.swift */; };
+		08CC973E20ECC9D900E424A0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC973C20ECC9D900E424A0 /* TestViewController.swift */; };
+		08CC973F20ECC9D900E424A0 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CC973D20ECC9D900E424A0 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		08CC973620ECC0AF00E424A0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		08CC973720ECC0AF00E424A0 /* Profile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Profile.xib; sourceTree = "<group>"; };
 		08CC973A20ECC18F00E424A0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		08CC973C20ECC9D900E424A0 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		08CC973D20ECC9D900E424A0 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				08CC973620ECC0AF00E424A0 /* Profile.swift */,
 				08CC973720ECC0AF00E424A0 /* Profile.xib */,
 				08CC973A20ECC18F00E424A0 /* File.swift */,
+				08CC973C20ECC9D900E424A0 /* TestViewController.swift */,
+				08CC973D20ECC9D900E424A0 /* TestViewController.xib */,
 			);
 			path = Collaboration;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08CC970F20ECAD7000E424A0 /* LaunchScreen.storyboard in Resources */,
+				08CC973F20ECC9D900E424A0 /* TestViewController.xib in Resources */,
 				08CC973920ECC0AF00E424A0 /* Profile.xib in Resources */,
 				08CC970C20ECAD7000E424A0 /* Assets.xcassets in Resources */,
 				08CC970720ECAD6D00E424A0 /* Main.storyboard in Resources */,
@@ -273,6 +280,7 @@
 				08CC970A20ECAD6D00E424A0 /* Collaboration.xcdatamodeld in Sources */,
 				08CC973820ECC0AF00E424A0 /* Profile.swift in Sources */,
 				08CC970420ECAD6D00E424A0 /* ViewController.swift in Sources */,
+				08CC973E20ECC9D900E424A0 /* TestViewController.swift in Sources */,
 				08CC970220ECAD6D00E424A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
