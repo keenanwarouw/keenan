@@ -12,7 +12,9 @@ class Profile: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.userName.text = RegisterViewController.profile.username
+        self.userEmail.text = RegisterViewController.profile.email
+        self.userPassword.text = RegisterViewController.profile.password
         // Do any additional setup after loading the view.
     }
 
@@ -24,6 +26,8 @@ class Profile: UIViewController {
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userEmail: UILabel!
     @IBOutlet weak var userPassword: UILabel!
+    
+    
     
     
     

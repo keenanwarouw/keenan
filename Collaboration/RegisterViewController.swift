@@ -36,6 +36,9 @@ class RegisterViewController: UIViewController {
         username.text = profile.username
         email.text = profile.email
         password.text = profile.password
+        
+        let register = Profile(nibName: "Profile", bundle: nil)
+        present(register, animated: true, completion: nil)
     }
 
     /*
