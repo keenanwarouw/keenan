@@ -20,6 +20,8 @@
 		08CC973B20ECC18F00E424A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC973A20ECC18F00E424A0 /* File.swift */; };
 		08CC973E20ECC9D900E424A0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC973C20ECC9D900E424A0 /* TestViewController.swift */; };
 		08CC973F20ECC9D900E424A0 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CC973D20ECC9D900E424A0 /* TestViewController.xib */; };
+		88832CCA20ECCB8F006CE96B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88832CC820ECCB8F006CE96B /* RegisterViewController.swift */; };
+		88832CCB20ECCB8F006CE96B /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88832CC920ECCB8F006CE96B /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		08CC973A20ECC18F00E424A0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		08CC973C20ECC9D900E424A0 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		08CC973D20ECC9D900E424A0 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		88832CC820ECCB8F006CE96B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		88832CC920ECCB8F006CE96B /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				08CC973720ECC0AF00E424A0 /* Profile.xib */,
 				08CC973A20ECC18F00E424A0 /* File.swift */,
 				08CC973C20ECC9D900E424A0 /* TestViewController.swift */,
+				88832CC820ECCB8F006CE96B /* RegisterViewController.swift */,
+				88832CC920ECCB8F006CE96B /* RegisterViewController.xib */,
 				08CC973D20ECC9D900E424A0 /* TestViewController.xib */,
 			);
 			path = Collaboration;
@@ -252,6 +258,7 @@
 				08CC973920ECC0AF00E424A0 /* Profile.xib in Resources */,
 				08CC970C20ECAD7000E424A0 /* Assets.xcassets in Resources */,
 				08CC970720ECAD6D00E424A0 /* Main.storyboard in Resources */,
+				88832CCB20ECCB8F006CE96B /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			files = (
 				08CC973B20ECC18F00E424A0 /* File.swift in Sources */,
 				08CC970A20ECAD6D00E424A0 /* Collaboration.xcdatamodeld in Sources */,
+				88832CCA20ECCB8F006CE96B /* RegisterViewController.swift in Sources */,
 				08CC973820ECC0AF00E424A0 /* Profile.swift in Sources */,
 				08CC970420ECAD6D00E424A0 /* ViewController.swift in Sources */,
 				08CC973E20ECC9D900E424A0 /* TestViewController.swift in Sources */,

@@ -1,21 +1,25 @@
 //
-//  TestViewController.swift
+//  RegisterViewController.swift
 //  Collaboration
 //
-//  Created by keenan warouw on 04/07/18.
+//  Created by lie yanti on 04/07/18.
 //  Copyright © 2018 keenan warouw. All rights reserved.
 //
 
 import UIKit
 
-class TestViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//asd
-        
-//        asdasdasd
+
         // Do any additional setup after loading the view.
+    }
+    struct profile{
+        static var username = ""
+        static var email = ""
+        static var password = ""
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +27,16 @@ class TestViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
     
+    
+    @IBAction func saveInputs(_ sender: Any) {
+        username.text = profile.username
+        email.text = profile.email
+        password.text = profile.password
+    }
 
     /*
     // MARK: - Navigation
